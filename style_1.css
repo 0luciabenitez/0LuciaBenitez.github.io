@@ -1,0 +1,114 @@
+
+body{
+    background-image: url(margarita.jpg);
+    background-image: cover;
+    background-color: rgba(255, 255, 255, 0.453);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 100px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: rgb(65, 192, 224);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+#primero em{
+    color: rgb(95, 101, 160);
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+
+
+img{
+    border-radius: 12px;
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+
+
+h1{
+    text-shadow: 2px 2px 5px rgba(95, 31, 148, 0.849);
+    color: rgba(102, 12, 12, 0.76);
+    background-color: rgba(236, 234, 234, 0.705);
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+h2{
+    font-size: 30px;
+}
+
+
+.habilidades h2{
+    color: darkslategrey;
+    text-decoration: underline;
+}
+
+.educación h2{
+    text-align: left;
+    color:darkslategrey;
+    text-decoration: underline;
+
+}
+
+#perfil h2{
+    color: darkslategrey;
+    text-decoration: underline;
+
+}
+input[type=text], select {
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+  background-color: #57af4c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit] :hover {
+    background-color: #45a049;
+}
+
+div{
+    border-radius: 5px;
+    background-color: #ebebebe5;
+    padding: 20px;
+}
+
+
+
+
