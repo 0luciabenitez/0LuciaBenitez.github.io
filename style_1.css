@@ -109,6 +109,13 @@ div{
     padding: 20px;
 }
 
+@media (max-width: 768px) {
+  /* Estilos para pantallas pequeñas, como smartphones */
+}
+
+@media (min-width: 769px) {
+  /* Estilos para pantallas más grandes, como tabletas y computadoras */
+}
 
 
 
