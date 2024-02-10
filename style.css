@@ -1,18 +1,18 @@
+@media screen and  (max-width: 768px) {
+  /* Estilos para dispositivos móviles */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  /* Estilos para tablets */
+}
+
+@media screen and (min-width: 1024px) {
+  /* Estilos para escritorios */
+}
 
 body {
   background-color: black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  @media screen and (max-width: 768px) {
-    /* Estilos para dispositivos móviles */
-  }
-  
-  @media screen and (min-width: 768px) and (max-width: 1024px) {
-    /* Estilos para tablets */
-  }
-  
-  @media screen and (min-width: 1024px) {
-    /* Estilos para escritorios */
-  }
   
 }
 
@@ -116,16 +116,28 @@ h2 {
   align-items: center;
 }
 
-#about-me h1 {
+#about-me h1{
   font-size: 65px;
   margin-top: 90px;
   color: #f7ede7;
 }
 
+@media (max-width: 2000px) {
 #about-me p {
   font-size: 25px;
   color: rgb(128, 128, 128);
   margin-top: -1cm;
+  display: block;
+  margin-top: 0;
+  
+}
+}
+#about-me2 p{
+  font-size: 25px;
+  color: rgb(128, 128, 128);
+  margin-top: -1cm;
+  display: block;
+  margin-top: 0;
 }
 
 .profile_image {
@@ -145,9 +157,13 @@ h2 {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  transform: scale(1.1);
+  transition: transform 0.6s ease-in-out;
 }
 
-.skill {
+.skill:hover{
   color: rgba(255, 255, 255, 0.719);
   border: 1px solid gray;
   display: block;
@@ -161,6 +177,8 @@ h2 {
   box-shadow: 0 3px 10px gray;
   border: thin solid rgba(255, 255, 255, 0);
 }
+
+
 
 .skill img {
   height: 35px;
@@ -176,6 +194,7 @@ h2 {
 } 
 
 .skills p {
+  display: none;
   align-items: center;
   font-size: 15px;
   color: gray;
@@ -183,6 +202,9 @@ h2 {
   margin-block-end: 5px;
 } 
 
+.skill:hover p {
+ visibility: visible;
+}
 .flex_center {
   display: flex;
   align-items: center;
@@ -218,6 +240,12 @@ h2 {
   font-size: 20px;
   margin-left: 30px;
 }
+.proyectos{
+  justify-content: center;
+  width: 700px;
+  height: 450px; 
+  word-wrap: break-word;
+}
 
 /* Recommendations */
 
@@ -234,16 +262,16 @@ h2 {
 .recommendation {
   font-style: italic;
   text-align: left;
-  width: 21.875rem;
-  padding: 1rem;
+  width: 21.875rem; 
+  padding: 1rem; 
   background-color: #6b6b6b18;
-  border-radius: 11px;
-  box-shadow: 0 3px 10px gray;
+  box-shadow: 0 3px 10px grey;
   padding: 20px;
+  border-radius: 10px;
   margin: 10px;
-  border:1px solid rgba(128, 128, 128, 0.144);
   font-size: 18px;
-  height:150px 
+  word-wrap: break-word;
+  height: 150px;
 }
 
 #new_recommendation{
@@ -323,21 +351,21 @@ input, textarea {
   margin: 5px;  
   width:100%;
   background-color: rgba(56, 56, 56, 0.37);
+  color: white;
 }
 
 fieldset {
-  
   display: flexbox;
   align-content: center;
   justify-content: center;  
-  padding: 25px; 
+  padding: 30px; 
   margin-left: 50px; 
   margin-right: 50px;   
   background-color: #6b6b6b23;
   box-shadow: 0 3px 10px gray;
   border-radius: 10px;
   border: thin solid rgba(255, 255, 255, 0);
-  width: 50%;
+  width: 40%;
   color: white;
 }
 
