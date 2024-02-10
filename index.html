@@ -3,7 +3,6 @@
   <head>
     <title>Lucia - Portfolio</title>
     <link rel="stylesheet" href="./style.css"/>
-    <script src="./script.js"></script>
   </head>
   <body>
     <!-- Navigation Bar -->
@@ -56,21 +55,27 @@
             And sport has taught me the importance of teamwork, discipline and perseverance. 
           </p>
           <br>
-          <p>
-            All of these skills have helped me become a better programmer.
-            I am able to think creatively and solve problems efficiently.
-            Constantly looking for new opportunities to learn and grow.
-          </p>
-          <br>
-            About languages: I studied English at Voxy where I am currently level B1 in English 
-            and Uruguayan Sign Language, I am already in my second year, it is very exciting.
-          </p>
       </div>
+      <br>
+    </section>
+    
+    <section id="about-me2">
+      <br>
+      <p>
+        All of these skills have helped me become a better programmer.
+        I am able to think creatively and solve problems efficiently.
+        Constantly looking for new opportunities to learn and grow.
+      </p>
+      <p>
+        <u>About languages:</u> I studied English at Voxy where I am currently level B1 in English 
+        and Uruguayan Sign Language, I am already in my second year, it is very exciting.
+      </p>
     </section>
               
     <!-- Skills -->
     <section id="skills">
-      <h2><u>Skills</u>:</h2>
+      <h2>Skills:</h2>
+      <br><br>br
       <div style="clear:both;"></div>
 
       <div class="all_skills">
@@ -89,7 +94,7 @@
         <div class="skill">
           <img src="imagenes/react.png"/>
           <h6>React</h6>
-          <p>0 years experience</p>
+          <p>1 month experience</p>
         </div> 
 
         <div class="skill">
@@ -103,7 +108,7 @@
           <h6>CSS</h6>
           <p>7 months experience</p>
         </div>
-        <!-- Add more skills here -->
+        <!-- more skills here -->
 
 
       </div>
@@ -112,7 +117,7 @@
     <!-- Projects -->
     <section class="projects" id="projects">
       <h2>
-        Projects
+        Projects:
       </h2>
       <div style="clear:both;"></div>
 
@@ -121,8 +126,9 @@
             <h3><u>E-commerce - JaP</u>:</h3>
             <ul>
               <li style="color:  rgb(248, 238, 225)">I created a stylish multi-page website for a new e-commerce, integrated it with a shopping cart, using JavaScript to 
-              <br>operate the cart and purchases that are obviously not real, it was a final project of the course.</li><br>
-              <img id="e-mercado" src="imagenes/e-mercado.png" alt="e-mercado" class="img-responsive">
+              <br>operate the cart and purchases that are obviously not real, it was a final project of the course.</li>
+              <br>
+              <img id="e-mercado" src="imagenes/e-mercado.png" alt="e-mercado" class="proyectos">
             </ul>
           </div>
           <hr>
@@ -131,7 +137,7 @@
             <ul>
               <li style="color:  rgb(248, 238, 225)"><em>This project has a login, to prevent unauthorized users from using it and must save the data in a database using NodeJS and Working with jsonwebtoken and the ExpressJS middlewares.</em></li>
             <br>
-            <img src="imagenes/API.png" alt="API">
+            <img src="imagenes/API.png" alt="API" class="proyectos">
             </ul>
           </div>
           <hr>
@@ -140,7 +146,7 @@
             <ul>
               <li style="color: rgb(248, 238, 225); font-size: 18px;"><strong>CRUD application, capable of connecting to a server and making modifications to a database.</strong></li>
               <br>
-            <img src="imagenes/CRUD.png" alt="CRUD">
+            <img src="imagenes/CRUD.png" alt="CRUD" class="proyectos">
             </ul>
           </div>
           <hr>
@@ -151,7 +157,7 @@
 
     <!-- Recommendations -->
     <section id="recommendations">
-      <h2>Recommendations</h2>
+      <h2>Recommendations:</h2>
       <div style="clear:both;"></div>
       <div class="all_recommendations" id="all_recommendations">
         <div class="recommendation">
@@ -199,4 +205,6 @@
       <button onclick="showPopup(false)">Ok</button>
     </div>
   </body>
+
+  <script src="./script.js"></script>
 </html>
